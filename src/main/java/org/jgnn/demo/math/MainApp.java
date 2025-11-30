@@ -1,4 +1,4 @@
-package org.jgnn;
+package org.jgnn.demo.math;
 
 import org.jgnn.demo.math.tools.Calculadora;
 
