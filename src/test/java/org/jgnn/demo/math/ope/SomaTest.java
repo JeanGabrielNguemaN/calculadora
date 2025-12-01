@@ -16,7 +16,7 @@ public class SomaTest {
         assertEquals(15.0, resultado, "10 + 5 deveria ser 15");
     }
 
-    /*
+    
     @Test
     public void testSomarComZero() {
         Soma soma = new Soma();
@@ -30,5 +30,5 @@ public class SomaTest {
         double resultado = soma.somar(-3, -7);
         assertEquals(-10.0, resultado, "-3 + (-7) deveria ser -10");
     }
-    */
+    
 }
