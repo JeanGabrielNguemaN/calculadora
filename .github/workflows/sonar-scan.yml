@@ -39,6 +39,4 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar \
-           -Dsonar.projectKey=JeanGabrielNguemaN_calculadora   \
-           -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml \ 
-           -Pcoverage
+           -Dsonar.projectKey=JeanGabrielNguemaN_calculadora   -Pcoverage
