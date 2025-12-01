@@ -9,6 +9,7 @@ public class Calculadora {
     private Multiplicar multiplicador;
     private Dividir divisor;
 
+    
     public Calculadora() {
         this.somador = new Soma();
         this.subtrator = new Substracao();
