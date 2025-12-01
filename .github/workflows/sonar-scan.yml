@@ -32,6 +32,12 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
+      
+      - name: Executar os testes
+        run: |
+            #Testando
+            mvn clean test
+        
       - name: Build and analyze
         #working-directory: hello     # <<< AQUI!!! DIRETÓRIO DO POM.XML
         env:
